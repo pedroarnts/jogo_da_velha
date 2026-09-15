@@ -1,6 +1,6 @@
 # 🎮 Jogo da Velha (Tic-Tac-Toe)
 
-[![CI](https://github.com/pedroarnts/joga_da_velha/actions/workflows/ci.yml/badge.svg)](https://github.com/pedroarnts/joga_da_velha/actions/workflows/ci.yml)
+[![CI](https://github.com/pedroarnts/jogo_da_velha/actions/workflows/ci.yml/badge.svg)](https://github.com/pedroarnts/jogo_da_velha/actions/workflows/ci.yml)
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
@@ -31,7 +31,7 @@ Digite a linha (0-2):
 ## 📂 Estrutura do projeto
 
 ```
-joga_da_velha/
+jogo_da_velha/
 ├── src/
 │   └── jogo_da_velha/
 │       ├── __init__.py
@@ -55,8 +55,8 @@ Pré-requisito: Python 3.10 ou superior.
 
 ```bash
 # 1. Clone o repositório
-git clone https://github.com/pedroarnts/joga_da_velha.git
-cd joga_da_velha
+git clone https://github.com/pedroarnts/jogo_da_velha.git
+cd jogo_da_velha
 
 # 2. Rode o jogo
 python -m src.jogo_da_velha
