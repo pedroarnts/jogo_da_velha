@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jogo-da-velha"
+version = "1.0.0"
+description = "Jogo da Velha (tic-tac-toe) para dois jogadores, no terminal."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "pedroarnts" }]
+
+[project.scripts]
+jogo-da-velha = "jogo_da_velha.jogo:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
